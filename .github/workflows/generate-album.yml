@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repozytorium
+      - name: 🧩 Checkout repozytorium
         uses: actions/checkout@v4
 
       - name: 🐍 Zainstaluj Pythona
@@ -24,7 +24,7 @@ jobs:
       - name: 🖼️ Uruchom skrypt generujący album
         run: python generate_album.py
 
-      - name: 📤 Zapisz wygenerowane pliki
+      - name: 💾 Zapisz wygenerowane pliki jako artefakty
         uses: actions/upload-artifact@v4
         with:
           name: albumy
