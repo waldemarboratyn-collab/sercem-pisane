@@ -1,0 +1,45 @@
+generate_list.py
+import os
+import json
+import re
+
+# Ścieżka do folderu z obrazami
+IMAGE_DIR = "images"
+
+# Nazwa pliku wyjściowego
+OUTPUT_FILE = os.path.join(IMAGE_DIR, "list.json")
+
+def clean_title(filename):
+    """Usuwa rozszerzenie i słowa typu 'Komplet', 'WB', 'kompletne' itp."""
+    title = os.path.splitext(filename)[0]
+    title = re.sub(r"\b[Kk]omplet[a-z]*\b", "", title)
+    title = re.sub(r"\b[Ww][Bb]\b", "", title)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title
+
+def extract_number(filename):
+    """Wydobywa numer z początku nazwy pliku (np. '15 Zmierzchem.jpg' → 15)"""
+    match = re.match(r"^(\d+)", filename)
+    return int(match.group(1)) if match else 9999
+
+def main():
+    files = [f for f in os.listdir(IMAGE_DIR) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
+    files.sort(key=extract_number)
+
+    data = []
+    for f in files:
+        number = extract_number(f)
+        title = clean_title(f)
+        data.append({
+            "id": number,
+            "title": title,
+            "url": f"{IMAGE_DIR}/{f}"
+        })
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Wygenerowano {OUTPUT_FILE} ({len(data)} pozycji)")
+
+if __name__ == "__main__":
+    main()
