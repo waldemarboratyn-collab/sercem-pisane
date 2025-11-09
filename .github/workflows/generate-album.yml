@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Pobierz repozytorium
+      - name: 📥 Checkout repozytorium
         uses: actions/checkout@v4
 
       - name: 🐍 Zainstaluj Pythona
@@ -19,13 +19,13 @@ jobs:
       - name: 📦 Zainstaluj zależności
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt || echo "Brak pliku requirements.txt"
+          pip install pillow
 
-      - name: 🖼️ Generuj album
+      - name: 🖼️ Uruchom skrypt generujący album
         run: python generate_album.py
 
-      - name: 💾 Zapisz wygenerowane pliki
+      - name: 📤 Zapisz wygenerowane pliki
         uses: actions/upload-artifact@v4
         with:
-          name: album
-          path: album/
+          name: albumy
+          path: albumy/
