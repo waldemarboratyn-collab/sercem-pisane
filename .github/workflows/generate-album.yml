@@ -1,4 +1,4 @@
-name: Generate album PDF and JPG
+  name: Generate album PDF and JPG
 
 on:
   workflow_dispatch:
