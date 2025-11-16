@@ -1,4 +1,4 @@
-name: Generate album PDF and JPG
+  name: Generate album PDF and JPG
 
 on:
   workflow_dispatch:
@@ -8,23 +8,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt || true
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+          pip install pillow
 
-    - name: Run album generator script
-      run: python generate_album.py
+      - name: Run album generator script
+        run: python generate_album.py
 
-    - name: Upload generated files as artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: generated-files
-        path: albumy/
+      - name: Upload generated files as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-files
+          path: album/
