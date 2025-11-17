@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pl">
 <head>
-<title>Sercem pisane — Multimedia</title>
+<title>Sercem pisane — O autorze</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="stylesheet" href="css/style.css">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="site-header container">
-  <h1 class="site-title">Multimedia</h1>
+  <h1 class="site-title">O autorze</h1>
   <nav class="main-nav">
     <a href="index.html">Start</a>
     <a href="wiersze.html">Wiersze</a>
@@ -20,18 +20,15 @@
   </nav>
 </header>
 
-<main class="container audio-page">
-  <h2>Odtwarzacz</h2>
-  <div class="audio-wrap">
-    <audio id="audio-player" controls preload="none">
-      <source id="audio-source" src="" type="audio/mpeg">
-      Twoja przeglądarka nie wspiera elementu audio.
-    </audio>
-    <ul id="playlist"></ul>
+<main class="container about-page">
+  <div class="about-card">
+    <img src="assets/images/author.jpg" alt="Autor" class="author-img">
+    <div class="about-text">
+      <h2>Waldemar Boratyn</h2>
+      <p>Autor, poeta, twórca zbioru „Sercem pisane”. Strona prezentuje zebrane wiersze, nagrania i obrazy.</p>
+      <p>Kontakt: <em>twoj-email@example.com</em> (zastąp danymi)</p>
+    </div>
   </div>
-
-  <h3>PDF — Tomik</h3>
-  <div class="pdf-wrap"><iframe id="pdf-frame" src="assets/pdfs/tomik.pdf" title="Tomik" frameborder="0"></iframe></div>
 </main>
 
 <footer class="site-footer container">

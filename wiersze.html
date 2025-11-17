@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pl">
 <head>
-<title>Sercem pisane — Multimedia</title>
+<title>Sercem pisane — Wiersze</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="stylesheet" href="css/style.css">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="site-header container">
-  <h1 class="site-title">Multimedia</h1>
+  <h1 class="site-title">Wiersze — Sercem pisane</h1>
   <nav class="main-nav">
     <a href="index.html">Start</a>
     <a href="wiersze.html">Wiersze</a>
@@ -20,18 +20,16 @@
   </nav>
 </header>
 
-<main class="container audio-page">
-  <h2>Odtwarzacz</h2>
-  <div class="audio-wrap">
-    <audio id="audio-player" controls preload="none">
-      <source id="audio-source" src="" type="audio/mpeg">
-      Twoja przeglądarka nie wspiera elementu audio.
-    </audio>
-    <ul id="playlist"></ul>
+<main class="container poems-page">
+  <h2>Lista wierszy</h2>
+  <div class="search-row">
+    <input id="search" placeholder="Szukaj po tytule lub numerze..." />
   </div>
-
-  <h3>PDF — Tomik</h3>
-  <div class="pdf-wrap"><iframe id="pdf-frame" src="assets/pdfs/tomik.pdf" title="Tomik" frameborder="0"></iframe></div>
+  <aside class="poem-list" id="poem-list" aria-label="Lista wierszy"></aside>
+  <article class="poem-view" id="poem-view">
+    <h3 id="poem-title">Wybierz wiersz</h3>
+    <div id="poem-content">Kliknij tytuł z listy, aby zobaczyć treść.</div>
+  </article>
 </main>
 
 <footer class="site-footer container">
