@@ -1,1 +1,4 @@
-
+body{font-family:Arial;padding:20px;background:#fafafa;}
+h1{font-size:32px;margin-bottom:10px;}
+nav a{margin-right:10px;}
+ol{max-width:600px;}
