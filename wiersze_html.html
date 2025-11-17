@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiersze – Sercem Pisane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #3b6fc4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .search-box {
+            margin-bottom: 20px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        ul#lista {
+            list-style: none;
+            padding: 0;
+        }
+        ul#lista li {
+            background: #e9effc;
+            margin: 6px 0;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        ul#lista li:hover {
+            background: #d0defc;
+        }
+    </style>
+</head>
+<body>
+
+<header>Lista wierszy (1–117)</header>
+
+<div class="container">
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Szukaj wiersza..." />
+    </div>
+
+    <ul id="lista"></ul>
+</div>
+
+<script>
+// Ładowanie JSON
+fetch("wiersze.json")
+  .then(res => res.json())
+  .then(data => {
+      window.wiersze = data; // zapisz globalnie
+      wyswietlListe(data);
+  });
+
+// Funkcja wyświetlająca listę
+function wyswietlListe(lista) {
+    const el = document.getElementById("lista");
+    el.innerHTML = "";
+
+    lista.forEach(w => {
+        const li = document.createElement("li");
+        li.textContent = `${w.id}. ${w.title}`;
+        el.appendChild(li);
+    });
+}
+
+// Wyszukiwarka
+const search = document.getElementById("search");
+search.addEventListener("input", e => {
+    const fraza = e.target.value.toLowerCase();
+    const filtr = window.wiersze.filter(w =>
+        w.title.toLowerCase().includes(fraza)
+    );
+    wyswietlListe(filtr);
+});
+</script>
+
+</body>
+</html>
