@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sercem Pisane — Galeria i Wiersze</title>
+  <meta name="description" content="Galeria prac i kolekcja wierszy — Sercem Pisane" />
+  <style>
+    :root{--bg:#faf8f6;--card:#fff;--muted:#6b6b6b;--accent:#b33;--shadow:0 6px 18px rgba(27,31,35,.08)}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg);color:#222}
+    .site{max-width:1100px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .brand{display:flex;flex-direction:column}
+    h1{margin:0;font-size:clamp(20px,3vw,28px)}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    /* layout */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:18px}
+    .card{background:var(--card);border-radius:10px;padding:8px;box-shadow:var(--shadow);overflow:hidden}
+    .thumb{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    .meta{padding:8px 6px}
+    .meta h3{margin:0;font-size:14px}
+    .meta p{margin:6px 0 0;color:var(--muted);font-size:13px}
+
+    /* modal */
+    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(7,8,9,.6);z-index:40;padding:24px}
+    .modal.open{display:flex}
+    .modal .frame{max-width:1000px;width:100%;background:var(--card);border-radius:8px;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.5)}
+    .modal img{width:100%;height:auto;display:block}
+    .modal .close{position:absolute;right:28px;top:20px;background:transparent;border:0;color:#fff;font-size:28px;cursor:pointer}
+
+    /* poems */
+    .poems{margin-top:36px}
+    .poem{background:var(--card);padding:14px;border-radius:10px;box-shadow:var(--shadow);margin-bottom:12px}
+    .poem h4{margin:0 0 6px}
+    .controls{display:flex;gap:8px;align-items:center;margin-top:16px}
+    input[type=search]{flex:1;padding:10px;border-radius:8px;border:1px solid #e6e6e6}
+    button.primary{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+
+    footer{margin-top:32px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:520px){.thumb{height:120px}}
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <div style="width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#f7e7e7,#ffecec);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)">SP</div>
+      <div class="brand">
+        <h1>Sercem Pisane — Galeria</h1>
+        <p class="lead">Zbiór grafik i wierszy — przeglądaj, czytaj i pobieraj.</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading" style="margin-top:22px">Galeria</h2>
+
+      <p style="color:var(--muted);margin:6px 0 0;font-size:14px">Kliknij miniaturkę, aby zobaczyć pełny obraz. Zastąp przykładowe ścieżki swoimi plikami w katalogu <code>/grafiki</code> lub <code>/komplety</code>.</p>
+
+      <div class="grid" id="gallery">
+        <!-- Przykładowe elementy — zamień src na właściwe ścieżki w repo -->
+        <article class="card" data-full="grafiki/Przyklad_01.jpg">
+          <img class="thumb" src="grafiki/Przyklad_01.jpg" alt="Przykład 1 — opis" />
+          <div class="meta"><h3>Przykład 1</h3><p>Komplet: Miłość Ojca</p></div>
+        </article>
+
+        <article class="card" data-full="grafiki/Przyklad_02.jpg">
+          <img class="thumb" src="grafiki/Przyklad_02.jpg" alt="Przykład 2 — opis" />
+          <div class="meta"><h3>Przykład 2</h3><p>Komplet: Wdzięczność</p></div>
+        </article>
+
+        <article class="card" data-full="grafiki/Przyklad_03.jpg">
+          <img class="thumb" src="grafiki/Przyklad_03.jpg" alt="Przykład 3 — opis" />
+          <div class="meta"><h3>Przykład 3</h3><p>Okładka: Album</p></div>
+        </article>
+
+        <!-- Dodaj więcej elementów lub generuj je automatycznie -->
+      </div>
+
+      <!-- Modal / Lightbox -->
+      <div id="modal" class="modal" role="dialog" aria-hidden="true">
+        <button class="close" id="closeBtn" aria-label="Zamknij">✕</button>
+        <div class="frame">
+          <img id="modalImg" src="" alt="Pełny widok obrazu"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="poems" aria-labelledby="poems-heading">
+      <h2 id="poems-heading">Wiersze</h2>
+      <p style="color:var(--muted);margin:6px 0 0;font-size:14px">Wrzucaj pliki tekstowe (np. <code>.md</code> lub <code>.txt</code>) do katalogu <code>/wiersze</code> i dodaj wpisy niżej. Możesz także wkleić treść bezpośrednio do elementów <code>.poem</code>.</p>
+
+      <div class="controls">
+        <input id="searchPoems" type="search" placeholder="Szukaj w wierszach (tytuł / fragment)..." />
+        <button class="primary" id="clearSearch">Wyczyść</button>
+      </div>
+
+      <div id="poemsList" style="margin-top:12px">
+        <!-- Przykladowe wiersze: zamień na rzeczywiste pliki lub generuj automatycznie -->
+
+        <article class="poem" data-title="Moja Ojczyzna">
+          <h4>Moja Ojczyzna</h4>
+          <div class="body">
+            <p>Moja ojczyzna, moja Polska — tekst przykładowy. Wklej tu cały wiersz lub link do pliku w katalogu <code>/wiersze</code>.</p>
+          </div>
+        </article>
+
+        <article class="poem" data-title="Wdzięczność">
+          <h4>Wdzięczność</h4>
+          <div class="body"><p>Przykładowy tekst — dziękuję za chwile, za słowa, za dni...</p></div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer>
+      Gotowe pliki: <strong>index.html</strong>. Aby opublikować jako stronę: włącz GitHub Pages z branchu <code>main</code> (root).<br>
+      Jeśli chcesz, mogę wygenerować wersję z osobnymi plikami <code>styles.css</code> i <code>script.js</code>.
+    </footer>
+  </div>
+
+  <script>
+    // LIGHTBOX
+    const gallery = document.getElementById('gallery');
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modalImg');
+    const closeBtn = document.getElementById('closeBtn');
+
+    gallery.addEventListener('click', e => {
+      const card = e.target.closest('.card');
+      if(!card) return;
+      const full = card.getAttribute('data-full');
+      if(!full) return;
+      modalImg.src = full;
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden','false');
+    });
+    closeBtn.addEventListener('click', ()=>{ modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); modalImg.src=''; });
+    modal.addEventListener('click', e => { if(e.target === modal) { modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); modalImg.src=''; } });
+
+    // POEMS SEARCH
+    const search = document.getElementById('searchPoems');
+    const clear = document.getElementById('clearSearch');
+    const poemsList = document.getElementById('poemsList');
+
+    function filterPoems(term){
+      term = term.trim().toLowerCase();
+      document.querySelectorAll('#poemsList .poem').forEach(p => {
+        const title = (p.dataset.title||'').toLowerCase();
+        const text = (p.innerText||'').toLowerCase();
+        const show = !term || title.includes(term) || text.includes(term);
+        p.style.display = show ? '' : 'none';
+      });
+    }
+    search.addEventListener('input', e => filterPoems(e.target.value));
+    clear.addEventListener('click', ()=>{ search.value=''; filterPoems(''); search.focus(); });
+
+    // NOTE:
+    // - Replace the sample image paths (grafiki/Przyklad_01.jpg etc.) with your real paths in the repo.
+    // - If you want automatic gallery generation from repository files, you can add a simple build-step
+    //   (Node.js script or GitHub Action) to generate the HTML list from directory contents.
+  </script>
+</body>
+</html>
