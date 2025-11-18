@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "title": "Wdzięczność",
+    "image": "assets/images/001.jpg",
+    "audio": "assets/audio/001.mp3",
+    "pdf": "assets/pdfs/001.pdf",
+    "content": "Tutaj wklej treść wiersza numer 1. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 2,
+    "title": "Renifer",
+    "image": "assets/images/002.jpg",
+    "audio": "assets/audio/002.mp3",
+    "pdf": "assets/pdfs/002.pdf",
+    "content": "Tutaj wklej treść wiersza numer 2. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 3,
+    "title": "Ojcze",
+    "image": "assets/images/003.jpg",
+    "audio": "assets/audio/003.mp3",
+    "pdf": "assets/pdfs/003.pdf",
+    "content": "Tutaj wklej treść wiersza numer 3. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 4,
+    "title": "Radość szalona",
+    "image": "assets/images/004.jpg",
+    "audio": "assets/audio/004.mp3",
+    "pdf": "assets/pdfs/004.pdf",
+    "content": "Tutaj wklej treść wiersza numer 4. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 5,
+    "title": "Muzyko",
+    "image": "assets/images/005.jpg",
+    "audio": "assets/audio/005.mp3",
+    "pdf": "assets/pdfs/005.pdf",
+    "content": "Tutaj wklej treść wiersza numer 5. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 6,
+    "title": "Stary kasztanie",
+    "image": "assets/images/006.jpg",
+    "audio": "assets/audio/006.mp3",
+    "pdf": "assets/pdfs/006.pdf",
+    "content": "Tutaj wklej treść wiersza numer 6. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 7,
+    "title": "Przychodź do mnie w snach",
+    "image": "assets/images/007.jpg",
+    "audio": "assets/audio/007.mp3",
+    "pdf": "assets/pdfs/007.pdf",
+    "content": "Tutaj wklej treść wiersza numer 7. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 8,
+    "title": "Starzec",
+    "image": "assets/images/008.jpg",
+    "audio": "assets/audio/008.mp3",
+    "pdf": "assets/pdfs/008.pdf",
+    "content": "Tutaj wklej treść wiersza numer 8. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 9,
+    "title": "Modlitwa",
+    "image": "assets/images/009.jpg",
+    "audio": "assets/audio/009.mp3",
+    "pdf": "assets/pdfs/009.pdf",
+    "content": "Tutaj wklej treść wiersza numer 9. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 10,
+    "title": "Dzień przed podróżą",
+    "image": "assets/images/010.jpg",
+    "audio": "assets/audio/010.mp3",
+    "pdf": "assets/pdfs/010.pdf",
+    "content": "Tutaj wklej treść wiersza numer 10. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 11,
+    "title": "Księżycowa noc",
+    "image": "assets/images/011.jpg",
+    "audio": "assets/audio/011.mp3",
+    "pdf": "assets/pdfs/011.pdf",
+    "content": "Tutaj wklej treść wiersza numer 11. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 12,
+    "title": "Pierwsze oznaki wiosny",
+    "image": "assets/images/012.jpg",
+    "audio": "assets/audio/012.mp3",
+    "pdf": "assets/pdfs/012.pdf",
+    "content": "Tutaj wklej treść wiersza numer 12. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 13,
+    "title": "W zagubionym dźwięku",
+    "image": "assets/images/013.jpg",
+    "audio": "assets/audio/013.mp3",
+    "pdf": "assets/pdfs/013.pdf",
+    "content": "Tutaj wklej treść wiersza numer 13. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 14,
+    "title": "Bezsilność",
+    "image": "assets/images/014.jpg",
+    "audio": "assets/audio/014.mp3",
+    "pdf": "assets/pdfs/014.pdf",
+    "content": "Tutaj wklej treść wiersza numer 14. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 15,
+    "title": "Zmierzchem złośliwie",
+    "image": "assets/images/015.jpg",
+    "audio": "assets/audio/015.mp3",
+    "pdf": "assets/pdfs/015.pdf",
+    "content": "Tutaj wklej treść wiersza numer 15. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 16,
+    "title": "Krople z fortepianu",
+    "image": "assets/images/016.jpg",
+    "audio": "assets/audio/016.mp3",
+    "pdf": "assets/pdfs/016.pdf",
+    "content": "Tutaj wklej treść wiersza numer 16. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 17,
+    "title": "Żyj każdego dnia",
+    "image": "assets/images/017.jpg",
+    "audio": "assets/audio/017.mp3",
+    "pdf": "assets/pdfs/017.pdf",
+    "content": "Tutaj wklej treść wiersza numer 17. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 18,
+    "title": "Pamiętasz Panie",
+    "image": "assets/images/018.jpg",
+    "audio": "assets/audio/018.mp3",
+    "pdf": "assets/pdfs/018.pdf",
+    "content": "Tutaj wklej treść wiersza numer 18. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 19,
+    "title": "Testament",
+    "image": "assets/images/019.jpg",
+    "audio": "assets/audio/019.mp3",
+    "pdf": "assets/pdfs/019.pdf",
+    "content": "Tutaj wklej treść wiersza numer 19. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 20,
+    "title": "Szarość",
+    "image": "assets/images/020.jpg",
+    "audio": "assets/audio/020.mp3",
+    "pdf": "assets/pdfs/020.pdf",
+    "content": "Tutaj wklej treść wiersza numer 20. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 21,
+    "title": "Za szybą",
+    "image": "assets/images/021.jpg",
+    "audio": "assets/audio/021.mp3",
+    "pdf": "assets/pdfs/021.pdf",
+    "content": "Tutaj wklej treść wiersza numer 21. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 22,
+    "title": "Zagubiony gość odziany śnieżnym płaszczem",
+    "image": "assets/images/022.jpg",
+    "audio": "assets/audio/022.mp3",
+    "pdf": "assets/pdfs/022.pdf",
+    "content": "Tutaj wklej treść wiersza numer 22. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 23,
+    "title": "Oczy szeroko zamknięte",
+    "image": "assets/images/023.jpg",
+    "audio": "assets/audio/023.mp3",
+    "pdf": "assets/pdfs/023.pdf",
+    "content": "Tutaj wklej treść wiersza numer 23. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 24,
+    "title": "Spadające z chmur",
+    "image": "assets/images/024.jpg",
+    "audio": "assets/audio/024.mp3",
+    "pdf": "assets/pdfs/024.pdf",
+    "content": "Tutaj wklej treść wiersza numer 24. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 25,
+    "title": "Mój rodzinny",
+    "image": "assets/images/025.jpg",
+    "audio": "assets/audio/025.mp3",
+    "pdf": "assets/pdfs/025.pdf",
+    "content": "Tutaj wklej treść wiersza numer 25. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 26,
+    "title": "Świtanie",
+    "image": "assets/images/026.jpg",
+    "audio": "assets/audio/026.mp3",
+    "pdf": "assets/pdfs/026.pdf",
+    "content": "Tutaj wklej treść wiersza numer 26. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 27,
+    "title": "Przyjaciołom",
+    "image": "assets/images/027.jpg",
+    "audio": "assets/audio/027.mp3",
+    "pdf": "assets/pdfs/027.pdf",
+    "content": "Tutaj wklej treść wiersza numer 27. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 28,
+    "title": "Już tylko sen",
+    "image": "assets/images/028.jpg",
+    "audio": "assets/audio/028.mp3",
+    "pdf": "assets/pdfs/028.pdf",
+    "content": "Tutaj wklej treść wiersza numer 28. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 29,
+    "title": "Czas przemija",
+    "image": "assets/images/029.jpg",
+    "audio": "assets/audio/029.mp3",
+    "pdf": "assets/pdfs/029.pdf",
+    "content": "Tutaj wklej treść wiersza numer 29. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 30,
+    "title": "Jedno spojrzenie",
+    "image": "assets/images/030.jpg",
+    "audio": "assets/audio/030.mp3",
+    "pdf": "assets/pdfs/030.pdf",
+    "content": "Tutaj wklej treść wiersza numer 30. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 31,
+    "title": "Pamiętnik",
+    "image": "assets/images/031.jpg",
+    "audio": "assets/audio/031.mp3",
+    "pdf": "assets/pdfs/031.pdf",
+    "content": "Tutaj wklej treść wiersza numer 31. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 32,
+    "title": "Wschodzący dzień",
+    "image": "assets/images/032.jpg",
+    "audio": "assets/audio/032.mp3",
+    "pdf": "assets/pdfs/032.pdf",
+    "content": "Tutaj wklej treść wiersza numer 32. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 33,
+    "title": "Znajoma stacja",
+    "image": "assets/images/033.jpg",
+    "audio": "assets/audio/033.mp3",
+    "pdf": "assets/pdfs/033.pdf",
+    "content": "Tutaj wklej treść wiersza numer 33. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 34,
+    "title": "W wigilijną noc",
+    "image": "assets/images/034.jpg",
+    "audio": "assets/audio/034.mp3",
+    "pdf": "assets/pdfs/034.pdf",
+    "content": "Tutaj wklej treść wiersza numer 34. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 35,
+    "title": "Stary rok zapisał",
+    "image": "assets/images/035.jpg",
+    "audio": "assets/audio/035.mp3",
+    "pdf": "assets/pdfs/035.pdf",
+    "content": "Tutaj wklej treść wiersza numer 35. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 36,
+    "title": "Oddycham ciszą",
+    "image": "assets/images/036.jpg",
+    "audio": "assets/audio/036.mp3",
+    "pdf": "assets/pdfs/036.pdf",
+    "content": "Tutaj wklej treść wiersza numer 36. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 37,
+    "title": "Igraszki losu",
+    "image": "assets/images/037.jpg",
+    "audio": "assets/audio/037.mp3",
+    "pdf": "assets/pdfs/037.pdf",
+    "content": "Tutaj wklej treść wiersza numer 37. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 38,
+    "title": "Jeszcze niespełnione marzenie",
+    "image": "assets/images/038.jpg",
+    "audio": "assets/audio/038.mp3",
+    "pdf": "assets/pdfs/038.pdf",
+    "content": "Tutaj wklej treść wiersza numer 38. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 39,
+    "title": "Zimową nocą",
+    "image": "assets/images/039.jpg",
+    "audio": "assets/audio/039.mp3",
+    "pdf": "assets/pdfs/039.pdf",
+    "content": "Tutaj wklej treść wiersza numer 39. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 40,
+    "title": "Jeśli chcesz",
+    "image": "assets/images/040.jpg",
+    "audio": "assets/audio/040.mp3",
+    "pdf": "assets/pdfs/040.pdf",
+    "content": "Tutaj wklej treść wiersza numer 40. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 41,
+    "title": "Na lotni",
+    "image": "assets/images/041.jpg",
+    "audio": "assets/audio/041.mp3",
+    "pdf": "assets/pdfs/041.pdf",
+    "content": "Tutaj wklej treść wiersza numer 41. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 42,
+    "title": "Dla Ciebie",
+    "image": "assets/images/042.jpg",
+    "audio": "assets/audio/042.mp3",
+    "pdf": "assets/pdfs/042.pdf",
+    "content": "Tutaj wklej treść wiersza numer 42. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 43,
+    "title": "Za jeden uśmiech Twój",
+    "image": "assets/images/043.jpg",
+    "audio": "assets/audio/043.mp3",
+    "pdf": "assets/pdfs/043.pdf",
+    "content": "Tutaj wklej treść wiersza numer 43. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 44,
+    "title": "Obojętność",
+    "image": "assets/images/044.jpg",
+    "audio": "assets/audio/044.mp3",
+    "pdf": "assets/pdfs/044.pdf",
+    "content": "Tutaj wklej treść wiersza numer 44. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 45,
+    "title": "Beztroskie dzieci",
+    "image": "assets/images/045.jpg",
+    "audio": "assets/audio/045.mp3",
+    "pdf": "assets/pdfs/045.pdf",
+    "content": "Tutaj wklej treść wiersza numer 45. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 46,
+    "title": "Nocy świerszcz",
+    "image": "assets/images/046.jpg",
+    "audio": "assets/audio/046.mp3",
+    "pdf": "assets/pdfs/046.pdf",
+    "content": "Tutaj wklej treść wiersza numer 46. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 47,
+    "title": "Do ostatniego tchu",
+    "image": "assets/images/047.jpg",
+    "audio": "assets/audio/047.mp3",
+    "pdf": "assets/pdfs/047.pdf",
+    "content": "Tutaj wklej treść wiersza numer 47. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 48,
+    "title": "Wieczory",
+    "image": "assets/images/048.jpg",
+    "audio": "assets/audio/048.mp3",
+    "pdf": "assets/pdfs/048.pdf",
+    "content": "Tutaj wklej treść wiersza numer 48. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 49,
+    "title": "Milczenie",
+    "image": "assets/images/049.jpg",
+    "audio": "assets/audio/049.mp3",
+    "pdf": "assets/pdfs/049.pdf",
+    "content": "Tutaj wklej treść wiersza numer 49. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 50,
+    "title": "W zagubionym zmęczonym dniu",
+    "image": "assets/images/050.jpg",
+    "audio": "assets/audio/050.mp3",
+    "pdf": "assets/pdfs/050.pdf",
+    "content": "Tutaj wklej treść wiersza numer 50. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 51,
+    "title": "Wzruszona pamięć",
+    "image": "assets/images/051.jpg",
+    "audio": "assets/audio/051.mp3",
+    "pdf": "assets/pdfs/051.pdf",
+    "content": "Tutaj wklej treść wiersza numer 51. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 52,
+    "title": "Kamyk",
+    "image": "assets/images/052.jpg",
+    "audio": "assets/audio/052.mp3",
+    "pdf": "assets/pdfs/052.pdf",
+    "content": "Tutaj wklej treść wiersza numer 52. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 53,
+    "title": "Za każdym oddechem",
+    "image": "assets/images/053.jpg",
+    "audio": "assets/audio/053.mp3",
+    "pdf": "assets/pdfs/053.pdf",
+    "content": "Tutaj wklej treść wiersza numer 53. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 54,
+    "title": "Zmierzchem",
+    "image": "assets/images/054.jpg",
+    "audio": "assets/audio/054.mp3",
+    "pdf": "assets/pdfs/054.pdf",
+    "content": "Tutaj wklej treść wiersza numer 54. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 55,
+    "title": "Doskonały dzień",
+    "image": "assets/images/055.jpg",
+    "audio": "assets/audio/055.mp3",
+    "pdf": "assets/pdfs/055.pdf",
+    "content": "Tutaj wklej treść wiersza numer 55. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 56,
+    "title": "W chmurach",
+    "image": "assets/images/056.jpg",
+    "audio": "assets/audio/056.mp3",
+    "pdf": "assets/pdfs/056.pdf",
+    "content": "Tutaj wklej treść wiersza numer 56. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 57,
+    "title": "Nie znajomi",
+    "image": "assets/images/057.jpg",
+    "audio": "assets/audio/057.mp3",
+    "pdf": "assets/pdfs/057.pdf",
+    "content": "Tutaj wklej treść wiersza numer 57. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 58,
+    "title": "Dwa szalone serca",
+    "image": "assets/images/058.jpg",
+    "audio": "assets/audio/058.mp3",
+    "pdf": "assets/pdfs/058.pdf",
+    "content": "Tutaj wklej treść wiersza numer 58. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 59,
+    "title": "Dziękuję Mamo",
+    "image": "assets/images/059.jpg",
+    "audio": "assets/audio/059.mp3",
+    "pdf": "assets/pdfs/059.pdf",
+    "content": "Tutaj wklej treść wiersza numer 59. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 60,
+    "title": "Całuję Twoje stopy",
+    "image": "assets/images/060.jpg",
+    "audio": "assets/audio/060.mp3",
+    "pdf": "assets/pdfs/060.pdf",
+    "content": "Tutaj wklej treść wiersza numer 60. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 61,
+    "title": "Pamiętaj… a gdy Ty",
+    "image": "assets/images/061.jpg",
+    "audio": "assets/audio/061.mp3",
+    "pdf": "assets/pdfs/061.pdf",
+    "content": "Tutaj wklej treść wiersza numer 61. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 62,
+    "title": "Wieczory",
+    "image": "assets/images/062.jpg",
+    "audio": "assets/audio/062.mp3",
+    "pdf": "assets/pdfs/062.pdf",
+    "content": "Tutaj wklej treść wiersza numer 62. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 63,
+    "title": "Muzyk nocy",
+    "image": "assets/images/063.jpg",
+    "audio": "assets/audio/063.mp3",
+    "pdf": "assets/pdfs/063.pdf",
+    "content": "Tutaj wklej treść wiersza numer 63. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 64,
+    "title": "Smutne serca",
+    "image": "assets/images/064.jpg",
+    "audio": "assets/audio/064.mp3",
+    "pdf": "assets/pdfs/064.pdf",
+    "content": "Tutaj wklej treść wiersza numer 64. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 65,
+    "title": "Jak Tato",
+    "image": "assets/images/065.jpg",
+    "audio": "assets/audio/065.mp3",
+    "pdf": "assets/pdfs/065.pdf",
+    "content": "Tutaj wklej treść wiersza numer 65. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 66,
+    "title": "Bądź",
+    "image": "assets/images/066.jpg",
+    "audio": "assets/audio/066.mp3",
+    "pdf": "assets/pdfs/066.pdf",
+    "content": "Tutaj wklej treść wiersza numer 66. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 67,
+    "title": "Opowieść",
+    "image": "assets/images/067.jpg",
+    "audio": "assets/audio/067.mp3",
+    "pdf": "assets/pdfs/067.pdf",
+    "content": "Tutaj wklej treść wiersza numer 67. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 68,
+    "title": "You remember me",
+    "image": "assets/images/068.jpg",
+    "audio": "assets/audio/068.mp3",
+    "pdf": "assets/pdfs/068.pdf",
+    "content": "Tutaj wklej treść wiersza numer 68. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 69,
+    "title": "Przyszłość",
+    "image": "assets/images/069.jpg",
+    "audio": "assets/audio/069.mp3",
+    "pdf": "assets/pdfs/069.pdf",
+    "content": "Tutaj wklej treść wiersza numer 69. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 70,
+    "title": "Zamknięty w ciszę",
+    "image": "assets/images/070.jpg",
+    "audio": "assets/audio/070.mp3",
+    "pdf": "assets/pdfs/070.pdf",
+    "content": "Tutaj wklej treść wiersza numer 70. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 71,
+    "title": "Wspomnienia",
+    "image": "assets/images/071.jpg",
+    "audio": "assets/audio/071.mp3",
+    "pdf": "assets/pdfs/071.pdf",
+    "content": "Tutaj wklej treść wiersza numer 71. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 72,
+    "title": "Zranione serca",
+    "image": "assets/images/072.jpg",
+    "audio": "assets/audio/072.mp3",
+    "pdf": "assets/pdfs/072.pdf",
+    "content": "Tutaj wklej treść wiersza numer 72. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 73,
+    "title": "Wspomnienie na tafli",
+    "image": "assets/images/073.jpg",
+    "audio": "assets/audio/073.mp3",
+    "pdf": "assets/pdfs/073.pdf",
+    "content": "Tutaj wklej treść wiersza numer 73. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 74,
+    "title": "Niebieskie serca",
+    "image": "assets/images/074.jpg",
+    "audio": "assets/audio/074.mp3",
+    "pdf": "assets/pdfs/074.pdf",
+    "content": "Tutaj wklej treść wiersza numer 74. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 75,
+    "title": "Zapisane na sercu",
+    "image": "assets/images/075.jpg",
+    "audio": "assets/audio/075.mp3",
+    "pdf": "assets/pdfs/075.pdf",
+    "content": "Tutaj wklej treść wiersza numer 75. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 76,
+    "title": "Jesteś",
+    "image": "assets/images/076.jpg",
+    "audio": "assets/audio/076.mp3",
+    "pdf": "assets/pdfs/076.pdf",
+    "content": "Tutaj wklej treść wiersza numer 76. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 77,
+    "title": "Powroty",
+    "image": "assets/images/077.jpg",
+    "audio": "assets/audio/077.mp3",
+    "pdf": "assets/pdfs/077.pdf",
+    "content": "Tutaj wklej treść wiersza numer 77. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 78,
+    "title": "Kruchy uczuć",
+    "image": "assets/images/078.jpg",
+    "audio": "assets/audio/078.mp3",
+    "pdf": "assets/pdfs/078.pdf",
+    "content": "Tutaj wklej treść wiersza numer 78. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 79,
+    "title": "Niepamięć",
+    "image": "assets/images/079.jpg",
+    "audio": "assets/audio/079.mp3",
+    "pdf": "assets/pdfs/079.pdf",
+    "content": "Tutaj wklej treść wiersza numer 79. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 80,
+    "title": "Za zasłoną",
+    "image": "assets/images/080.jpg",
+    "audio": "assets/audio/080.mp3",
+    "pdf": "assets/pdfs/080.pdf",
+    "content": "Tutaj wklej treść wiersza numer 80. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 81,
+    "title": "Bratnie dusze",
+    "image": "assets/images/081.jpg",
+    "audio": "assets/audio/081.mp3",
+    "pdf": "assets/pdfs/081.pdf",
+    "content": "Tutaj wklej treść wiersza numer 81. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 82,
+    "title": "Podróż w nieznane",
+    "image": "assets/images/082.jpg",
+    "audio": "assets/audio/082.mp3",
+    "pdf": "assets/pdfs/082.pdf",
+    "content": "Tutaj wklej treść wiersza numer 82. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 83,
+    "title": "Nietykalni",
+    "image": "assets/images/083.jpg",
+    "audio": "assets/audio/083.mp3",
+    "pdf": "assets/pdfs/083.pdf",
+    "content": "Tutaj wklej treść wiersza numer 83. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 84,
+    "title": "Chłopiec",
+    "image": "assets/images/084.jpg",
+    "audio": "assets/audio/084.mp3",
+    "pdf": "assets/pdfs/084.pdf",
+    "content": "Tutaj wklej treść wiersza numer 84. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 85,
+    "title": "Podążasz za nią",
+    "image": "assets/images/085.jpg",
+    "audio": "assets/audio/085.mp3",
+    "pdf": "assets/pdfs/085.pdf",
+    "content": "Tutaj wklej treść wiersza numer 85. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 86,
+    "title": "Dzieciak",
+    "image": "assets/images/086.jpg",
+    "audio": "assets/audio/086.mp3",
+    "pdf": "assets/pdfs/086.pdf",
+    "content": "Tutaj wklej treść wiersza numer 86. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 87,
+    "title": "Niekończąca się opowieść",
+    "image": "assets/images/087.jpg",
+    "audio": "assets/audio/087.mp3",
+    "pdf": "assets/pdfs/087.pdf",
+    "content": "Tutaj wklej treść wiersza numer 87. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 88,
+    "title": "Zegar świata zatrzymał czas",
+    "image": "assets/images/088.jpg",
+    "audio": "assets/audio/088.mp3",
+    "pdf": "assets/pdfs/088.pdf",
+    "content": "Tutaj wklej treść wiersza numer 88. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 89,
+    "title": "Włoski akordeon",
+    "image": "assets/images/089.jpg",
+    "audio": "assets/audio/089.mp3",
+    "pdf": "assets/pdfs/089.pdf",
+    "content": "Tutaj wklej treść wiersza numer 89. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 90,
+    "title": "Słoneczne serca",
+    "image": "assets/images/090.jpg",
+    "audio": "assets/audio/090.mp3",
+    "pdf": "assets/pdfs/090.pdf",
+    "content": "Tutaj wklej treść wiersza numer 90. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 91,
+    "title": "Taka miłość zdarza...",
+    "image": "assets/images/091.jpg",
+    "audio": "assets/audio/091.mp3",
+    "pdf": "assets/pdfs/091.pdf",
+    "content": "Tutaj wklej treść wiersza numer 91. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 92,
+    "title": "Okruchy wiosny",
+    "image": "assets/images/092.jpg",
+    "audio": "assets/audio/092.mp3",
+    "pdf": "assets/pdfs/092.pdf",
+    "content": "Tutaj wklej treść wiersza numer 92. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 93,
+    "title": "Jeden dotyk dłoni",
+    "image": "assets/images/093.jpg",
+    "audio": "assets/audio/093.mp3",
+    "pdf": "assets/pdfs/093.pdf",
+    "content": "Tutaj wklej treść wiersza numer 93. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 94,
+    "title": "Przeznaczenie",
+    "image": "assets/images/094.jpg",
+    "audio": "assets/audio/094.mp3",
+    "pdf": "assets/pdfs/094.pdf",
+    "content": "Tutaj wklej treść wiersza numer 94. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 95,
+    "title": "Przyszedłem na świat aby Cię kochać",
+    "image": "assets/images/095.jpg",
+    "audio": "assets/audio/095.mp3",
+    "pdf": "assets/pdfs/095.pdf",
+    "content": "Tutaj wklej treść wiersza numer 95. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 96,
+    "title": "Noce i dni",
+    "image": "assets/images/096.jpg",
+    "audio": "assets/audio/096.mp3",
+    "pdf": "assets/pdfs/096.pdf",
+    "content": "Tutaj wklej treść wiersza numer 96. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 97,
+    "title": "Nocą pięknieje świat",
+    "image": "assets/images/097.jpg",
+    "audio": "assets/audio/097.mp3",
+    "pdf": "assets/pdfs/097.pdf",
+    "content": "Tutaj wklej treść wiersza numer 97. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 98,
+    "title": "Słońcem pięknieje czas",
+    "image": "assets/images/098.jpg",
+    "audio": "assets/audio/098.mp3",
+    "pdf": "assets/pdfs/098.pdf",
+    "content": "Tutaj wklej treść wiersza numer 98. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 99,
+    "title": "Wrzesień latem oczarowany",
+    "image": "assets/images/099.jpg",
+    "audio": "assets/audio/099.mp3",
+    "pdf": "assets/pdfs/099.pdf",
+    "content": "Tutaj wklej treść wiersza numer 99. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 100,
+    "title": "Poza światem",
+    "image": "assets/images/100.jpg",
+    "audio": "assets/audio/100.mp3",
+    "pdf": "assets/pdfs/100.pdf",
+    "content": "Tutaj wklej treść wiersza numer 100. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 101,
+    "title": "Kwiaty",
+    "image": "assets/images/101.jpg",
+    "audio": "assets/audio/101.mp3",
+    "pdf": "assets/pdfs/101.pdf",
+    "content": "Tutaj wklej treść wiersza numer 101. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 102,
+    "title": "Zachody",
+    "image": "assets/images/102.jpg",
+    "audio": "assets/audio/102.mp3",
+    "pdf": "assets/pdfs/102.pdf",
+    "content": "Tutaj wklej treść wiersza numer 102. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 103,
+    "title": "Słoneczna jesień",
+    "image": "assets/images/103.jpg",
+    "audio": "assets/audio/103.mp3",
+    "pdf": "assets/pdfs/103.pdf",
+    "content": "Tutaj wklej treść wiersza numer 103. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 104,
+    "title": "Od zmierzchu",
+    "image": "assets/images/104.jpg",
+    "audio": "assets/audio/104.mp3",
+    "pdf": "assets/pdfs/104.pdf",
+    "content": "Tutaj wklej treść wiersza numer 104. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 105,
+    "title": "Samba butelkowa",
+    "image": "assets/images/105.jpg",
+    "audio": "assets/audio/105.mp3",
+    "pdf": "assets/pdfs/105.pdf",
+    "content": "Tutaj wklej treść wiersza numer 105. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 106,
+    "title": "Miłość Ojca",
+    "image": "assets/images/106.jpg",
+    "audio": "assets/audio/106.mp3",
+    "pdf": "assets/pdfs/106.pdf",
+    "content": "Tutaj wklej treść wiersza numer 106. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 107,
+    "title": "Przemijanie",
+    "image": "assets/images/107.jpg",
+    "audio": "assets/audio/107.mp3",
+    "pdf": "assets/pdfs/107.pdf",
+    "content": "Tutaj wklej treść wiersza numer 107. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 108,
+    "title": "Kocham życie",
+    "image": "assets/images/108.jpg",
+    "audio": "assets/audio/108.mp3",
+    "pdf": "assets/pdfs/108.pdf",
+    "content": "Tutaj wklej treść wiersza numer 108. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 109,
+    "title": "W podróży po czas",
+    "image": "assets/images/109.jpg",
+    "audio": "assets/audio/109.mp3",
+    "pdf": "assets/pdfs/109.pdf",
+    "content": "Tutaj wklej treść wiersza numer 109. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 110,
+    "title": "Świat oddech wstrzymał",
+    "image": "assets/images/110.jpg",
+    "audio": "assets/audio/110.mp3",
+    "pdf": "assets/pdfs/110.pdf",
+    "content": "Tutaj wklej treść wiersza numer 110. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 111,
+    "title": "Za nim zapomnisz",
+    "image": "assets/images/111.jpg",
+    "audio": "assets/audio/111.mp3",
+    "pdf": "assets/pdfs/111.pdf",
+    "content": "Tutaj wklej treść wiersza numer 111. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 112,
+    "title": "Czas przebaczenia 11 Listopad 2025",
+    "image": "assets/images/112.jpg",
+    "audio": "assets/audio/112.mp3",
+    "pdf": "assets/pdfs/112.pdf",
+    "content": "Tutaj wklej treść wiersza numer 112. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 113,
+    "title": "Odchodzi Jesień",
+    "image": "assets/images/113.jpg",
+    "audio": "assets/audio/113.mp3",
+    "pdf": "assets/pdfs/113.pdf",
+    "content": "Tutaj wklej treść wiersza numer 113. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 114,
+    "title": "Obudziła się miłość",
+    "image": "assets/images/114.jpg",
+    "audio": "assets/audio/114.mp3",
+    "pdf": "assets/pdfs/114.pdf",
+    "content": "Tutaj wklej treść wiersza numer 114. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 115,
+    "title": "Deszcz",
+    "image": "assets/images/115.jpg",
+    "audio": "assets/audio/115.mp3",
+    "pdf": "assets/pdfs/115.pdf",
+    "content": "Tutaj wklej treść wiersza numer 115. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 116,
+    "title": "Księżyc zanika",
+    "image": "assets/images/116.jpg",
+    "audio": "assets/audio/116.mp3",
+    "pdf": "assets/pdfs/116.pdf",
+    "content": "Tutaj wklej treść wiersza numer 116. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  },
+  {
+    "id": 117,
+    "title": "Nadziejo",
+    "image": "assets/images/117.jpg",
+    "audio": "assets/audio/117.mp3",
+    "pdf": "assets/pdfs/117.pdf",
+    "content": "Tutaj wklej treść wiersza numer 117. Jeśli treści są już na stronie, skopiuj je do odpowiednich plików HTML lub zastąp zawartość tego pola."
+  }
+]

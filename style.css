@@ -1,7 +1,10 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #faf7f5;
-  margin: 40px;
-}
-h1 { color: #333; }
-a { color: #444; }
+
+body{font-family: Georgia, 'Times New Roman', serif; background:#fbfaf8; color:#222; margin:0; padding:0;}
+.container{max-width:900px;margin:30px auto;padding:20px;background:#fff;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,0.08);}
+header{background:linear-gradient(90deg,#ffd9e8,#d4f0ff);padding:40px 20px;text-align:center;border-bottom:1px solid rgba(0,0,0,0.04);}
+.header-title{font-size:34px;margin:0;}
+.nav{margin-top:12px;}
+.nav a{margin:0 8px;text-decoration:none;color:#333;font-weight:600;}
+.poem-title{font-size:26px;margin-bottom:8px;}
+.poem-content{white-space:pre-wrap;font-size:18px;line-height:1.6;color:#333;}
+.back{display:inline-block;margin-top:16px;padding:8px 12px;background:#eef6ff;border-radius:6px;text-decoration:none;color:#036;box-shadow:0 2px 6px rgba(3,102,214,0.08);}
