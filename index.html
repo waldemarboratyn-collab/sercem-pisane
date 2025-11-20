@@ -1,6 +1,21 @@
 <!DOCTYPE html>
-<html lang="pl"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Sercem Pisane - Index</title><link rel="stylesheet" href="style.css"></head>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sercem Pisane – Galeria Wierszy</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-<header><div class="container"><h1 class="header-title">Sercem Pisane</h1><div class="nav"><a href="wiersze/index.html">Lista wierszy</a></div></div></header>
-<main class="container"><p>Witaj — to strona z kolekcją wierszy. Kliknij <a href="wiersze/index.html">Lista wierszy</a>, aby zobaczyć pełną listę.</p></main>
-</body></html>
+    <header>
+        <h1>Sercem Pisane – Galeria Wierszy i Obrazów</h1>
+        <p>Kliknij dowolny obraz, aby zobaczyć go w pełnym rozmiarze.</p>
+    </header>
+    <main><div id="gallery" class="gallery"></div></main>
+    <div id="modal" class="modal">
+        <span id="closeBtn" class="close">&times;</span>
+        <img id="modalImg" class="modal-content" />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
