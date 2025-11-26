@@ -1,5 +1,5 @@
 
-Sercem pisane — Multi-page pastelowy projekt (lazur + piasek)
+Sercem pisane bazgrołki— Multi-page pastelowy projekt (lazur + piasek)
 
 Instrukcja krótkia:
 1. Pobierz i rozpakuj tę paczkę.
